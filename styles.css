@@ -1,8 +1,10 @@
 body {
+    overflow-x: hidden;
     height: 100vh;
     margin: 0;
     font-family: Veranda, sans-serif;
     background-color: beige;
+    flex-grow: 1;
 }
 
 button {
@@ -13,6 +15,7 @@ button {
     font-weight: bold;
     padding: 6px 25px;
     font-size: 20px;
+    border: solid 3px #607D3B
 }
 
 button:hover {
@@ -24,6 +27,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     border-radius: 0px 0px 40px 40px;
+    height: 80px;
 }
 
 .header,
@@ -34,7 +38,7 @@ button:hover {
 
 
 img.logo {
-    width: 8rem;
+    width: 5rem;
     display: flex;
     flex-shrink: 0;
 }
@@ -67,7 +71,8 @@ nav {
     padding-top: 25px;
 }
 
-.bannertext {
+.bannertext,
+.lowerbannertext {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 425px;
@@ -150,6 +155,7 @@ img.infoimg {
     align-items: center;
     height: 200px;
     background-color: #98BF64;
+    border-radius: 0px 0px 40px 40px;
 }
 
 .qoutetext {
@@ -165,4 +171,29 @@ img.infoimg {
     font-size: 20px;
     color: #9E4244;
     font-weight: 600;
+}
+
+
+.lowerbanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 36px;
+    margin: 90px 380px;
+    background-color: #98BF64;
+    border: 3px solid #FAE29C
+}
+
+.signup {
+    color: #9E4244;
+}
+
+.appealtitle {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.appealtext {
+    font-size: 20px;
 }
