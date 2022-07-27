@@ -6,6 +6,32 @@ body {
     background-color: beige;
 }
 
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #98BF64;
+    color:#FAE29C;
+    font-weight: bold;
+    padding: 6px 25px;
+    font-size: 20px;
+}
+
+button:hover {
+    color:#5E2C04;
+}
+
+.header {
+    background-color: #FAE29C;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.header,
+.banner {
+    padding: 0px 50px 0px;
+}
+
 img.logo {
     width: 100px;
     height:auto;
@@ -31,10 +57,38 @@ nav {
     letter-spacing: 5px;
 }
 
-.header {
-    background-color: #FAE29C;
+.banner {
     display: flex;
     justify-content: space-between;
-    padding: 0px 50px 0px;
-    border-radius: 0px 0px 40px 40px;
+    height: 300px;
+}
+
+.bannertext {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 420px;
+    gap: 5px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #98BF64;
+}
+
+.title:hover {
+    color:#607D3B;
+    text-shadow: 0px 0px 25px #FC94AF;
+    letter-spacing: 1px;
+}
+
+.subtext {
+    font-size: 20px;
+    font-weight: 400;
+    color: #65350F;
+}
+
+img.bannerimg {
+    width: 300px;
+    height:auto;
 }
