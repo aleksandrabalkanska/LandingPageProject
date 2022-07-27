@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Veranda, sans-serif;
+    background-color: beige;
+}
+
+img.logo {
+    width: 100px;
+    height:auto;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu {
+    color: #5E2C04;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu:hover {
+    color:#9E4244;
+    text-shadow: 0px 0px 25px #FC94AF;
+    letter-spacing: 5px;
+}
+
+.header {
+    background-color: #FAE29C;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px;
+    border-radius: 0px 0px 40px 40px;
+}
