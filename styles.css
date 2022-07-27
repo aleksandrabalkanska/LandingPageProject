@@ -1,6 +1,5 @@
 body {
     height: 100vh;
-    overflow:hidden;
     margin: 0;
     font-family: Veranda, sans-serif;
     background-color: beige;
@@ -145,3 +144,25 @@ img.infoimg {
     border-radius: 10px;
 }
 
+.qoute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #98BF64;
+}
+
+.qoutetext {
+    font-size: 60px;
+    color: #FAE29C;
+}
+
+.qouteattri {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding-top: 100px;
+    font-size: 20px;
+    color: #9E4244;
+    font-weight: 600;
+}
