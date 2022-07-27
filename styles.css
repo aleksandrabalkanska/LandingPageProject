@@ -120,8 +120,8 @@ img.bannerimg {
     padding: 10px;
     text-align: center;
     font-size: 40px;
-    font-weight: 500;
-    color:#65350F
+    font-weight: 700;
+    color:#65350F;
 }
 
 .container {
@@ -182,7 +182,8 @@ img.infoimg {
     padding: 36px;
     margin: 90px 380px;
     background-color: #98BF64;
-    border: 3px solid #FAE29C
+    border: 3px solid #FAE29C;
+    border-radius: 40px 40px 40px 40px;
 }
 
 .signup {
@@ -196,4 +197,14 @@ img.infoimg {
 
 .appealtext {
     font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E2C04;
+    font-weight: bold;
+    color: #FAE29C;
+    padding: 20px;
 }
