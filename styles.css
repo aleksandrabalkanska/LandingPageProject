@@ -129,6 +129,7 @@ img.bannerimg {
     justify-content: center;
     gap: 5%;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 
 .infoimg:hover {
@@ -156,6 +157,8 @@ img.infoimg {
     height: 200px;
     background-color: #98BF64;
     border-radius: 0px 0px 40px 40px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .qoutetext {
@@ -178,21 +181,25 @@ img.infoimg {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 600px;
     gap: 60px;
-    padding: 36px;
+    padding: 40px 80px;
     margin: 90px 380px;
     background-color: #98BF64;
     border: 3px solid #FAE29C;
     border-radius: 40px 40px 40px 40px;
+    flex-wrap: wrap;
 }
 
 .signup {
     color: #9E4244;
+    flex: 1 1 auto;
 }
 
 .appealtitle {
     font-size: 22px;
     font-weight: bold;
+
 }
 
 .appealtext {
